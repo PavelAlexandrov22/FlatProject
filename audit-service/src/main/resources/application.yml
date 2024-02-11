@@ -1,0 +1,11 @@
+app:
+  jwt:
+    secret: NDQ1ZjAzNjQtMzViZi00MDRjLTljZjQtNjNjYWIyZTU5ZDYw
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://db:5432/audit?currentSchema=logs
+    password: Eu2WA&kdcFJayGtWS6uZYrG59
+    username: auditor
+  jpa:
+    show-sql: true

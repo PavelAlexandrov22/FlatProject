@@ -1,0 +1,13 @@
+-spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user-service?currentSchema=security
+    password: Eu2WA&kdcFJayGtWS6uZYrG59
+    username: secmanager
+  jpa:
+    show-sql: true
+app:
+  user:
+    storage: JDBC #MEMORY or JDBC
+
+external:
+  url: "localhost:8081"

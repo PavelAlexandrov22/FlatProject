@@ -1,0 +1,13 @@
+spring:
+  mail:
+    host: smtp.mail.ru
+    username: pavelalexit@mail.ru
+    password: aFyhxLcpVJG2yHnezT02
+    protocol: smtp
+    port: 465
+    default-encoding: UTF-8
+    properties:
+      "mail.smtp.ssl.enable": true
+
+
+

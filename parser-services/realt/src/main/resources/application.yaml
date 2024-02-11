@@ -1,0 +1,35 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    properties:
+      hibernate:
+        default_schema: realt
+  datasource:
+    url: jdbc:postgresql://db:5432/flat
+    username: realtv1
+    password: HW)!WD%ey*@t)<C?dbxn2W-
+    driverClassName: org.postgresql.Driver
+  sql:
+    init:
+      platform: postgres
+  main:
+    banner-mode: off
+parser:
+  external-url: https://realt.by/sitemap-sale-flats.xml
+  timeout: 2
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+logging:
+  charset:
+    file: utf-8
+  file:
+    name: log.log
+    path: ./logging
+app:
+  properties:
+    beginPatternString: <loc>
+    endPatternString: </loc>
+    start: <script id="__NEXT_DATA__" type="application/json">
+    end: </script></body></html>
+#  pattern:
+#    file: %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%

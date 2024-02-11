@@ -1,0 +1,19 @@
+spring:
+  mail:
+    host: smtp.mail.ru
+    username: pavelalexit@mail.ru
+    password: aFyhxLcpVJG2yHnezT02
+    protocol: smtp
+    port: 465
+    default-encoding: UTF-8
+    properties:
+      mail.smtp.ssl.enable: true
+app:
+  jwt:
+    secret: NDQ1ZjAzNjQtMzViZi00MDRjLTljZjQtNjNjYWIyZTU5ZDYw
+    issuer: ITAcademy
+  mail:
+    properties:
+      subject: "please, confirm your email address in our service"
+      text-prefix: "Thank you for creating your SearchFlats Account. To complete your registration, click the link below:"
+      text-postfix: "With best regards, SearchFlats Technical Support"

@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/user-service?currentSchema=security
+    password: Eu2WA&kdcFJayGtWS6uZYrG59
+    username: secmanager
+app:
+  user:
+    storage: JDBC #MEMORY or JDBC
+external:
+  url: "mail-service:8080"
